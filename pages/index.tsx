@@ -106,10 +106,10 @@ export default function Home() {
           phone: `${number}`,
           wilaya: province,
           commune: address,
-          product: `magicdream`,
+          product: `bodybutter`,
           size: "",
           color: "",
-          agent_id: agentId,
+          agent_id: 12,
           offer: ``,
         });
         if (error) {
@@ -208,12 +208,17 @@ export default function Home() {
             </h1>
             <h6 className="text-2xl ">
               {" "}
-              ماجيك دريم الأصلي أقوى مبيض في العالم و الأكثر مبيعا{" "}
+              و لأول مرة في الجزائر، المنتج الأكثر طلبا لبشرة مثالية{" "}
             </h6>
           </div>
 
           <div className="grid gap-12 md:grid-cols-2">
             <div className="w-full hidden md:block">
+              <div className="my-4">
+                <div>
+                  <img src="/2.png" alt="" className="w-full" />
+                </div>
+              </div>
               {/* <div className="my-4">
                 <div>
                   <img src={previewImage} alt="" className="w-full" />
@@ -234,10 +239,15 @@ export default function Home() {
                 </div>
               </div> */}
               <div>
-                <img src="/00.jpeg" className="my-3" />
-                <img src="/01.gif" className="my-3" />
-                <img src="/01.jpeg" className="my-3" />
-                <img src="/02.jpeg" className="my-3" />
+                {/* <img src="/2.png" className="my-3" /> */}
+                <img src="/7.gif" className="my-3" />
+                <img src="/3.png" className="my-3" />
+                <img src="/4.png" className="my-3" />
+                <img src="/8.png" className="my-3" />
+                <img src="/5.png" className="my-3" />
+                <img src="/6.png" className="my-3" />
+                <img src="/1.png" className="my-3" />
+                {/* <img src="/9.png" className="my-3" /> */}
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 ">:كيفية الطلب </h1>
@@ -264,27 +274,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* <div className="w-full block md:hidden">
-              <div className="my-4">
+            <div className="w-full block md:hidden">
+              <div className="">
                 <div>
-                  <img src={previewImage} alt="" className="" />
-                </div>
-                <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => handleUpdateModel(1)}>
-                    <Image src="/01.jpg" width={128} height={160} />
-                  </button>
-                  <button onClick={() => handleUpdateModel(2)}>
-                    <Image src="/02.jpg" width={128} height={160} />
-                  </button>
-                  <button onClick={() => handleUpdateModel(3)}>
-                    <Image src="/03.jpg" width={128} height={160} />
-                  </button>
-                  <button onClick={() => handleUpdateModel(4)}>
-                    <Image src="/07.jpg" width={128} height={160} />
-                  </button>
+                  <img src="/2.png" alt="" className="" />
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="z-10">
               <div className="flex justify-between hidden">
                 <Image
@@ -524,10 +520,14 @@ export default function Home() {
                 allowFullScreen
               ></iframe> */}
               <div className="text-right mt-0">
-                <img src="/00.jpeg" className="my-3" />
-                <img src="/01.gif" className="my-3" />
-                <img src="/01.jpeg" className="my-3" />
-                <img src="/02.jpeg" className="my-3" />
+                {/* <img src="/2.png" className="my-3" /> */}
+                <img src="/7.gif" className="my-3" />
+                <img src="/3.png" className="my-3" />
+                <img src="/4.png" className="my-3" />
+                <img src="/8.png" className="my-3" />
+                <img src="/5.png" className="my-3" />
+                <img src="/6.png" className="my-3" />
+                <img src="/1.png" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 ">:كيفية الطلب </h1>
